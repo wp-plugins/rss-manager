@@ -21,7 +21,10 @@ Version: 0.03
 */
 
 function rss_manager_options(){
-$rss_manager_options = array('custom_field_name' => 'thumbnail',
+
+$rss_manager_options = get_option('rss_manager');
+if (empty($rss_manager_options)) {
+  $rss_manager_options = array('custom_field_name' => 'thumbnail',
 'rss_pause_time' => '0',
 'rss_unit_of_time' => __('Minute(s)', 'rss-manager'),
 'readmore_text' => __('Read more...', 'rss-manager'),
@@ -36,15 +39,10 @@ $rss_manager_options = array('custom_field_name' => 'thumbnail',
 'content_text_align' => 'left',
 'custom_header_code' => '',
 'custom_footer_code' => '',
-'thumbnail_position' => 'none');
-$saved_options = get_option('rss_manager');
-if (!empty($saved_options)) {
-  foreach ($saved_options as $key => $option)
-  {
-   $rss_manager_options[$key] = $option;
-  } 
-} 
+'thumbnail_position' => 'none'); 
 update_option('rss_manager', $rss_manager_options);
+} 
+
 return $rss_manager_options; 
 
 			}
