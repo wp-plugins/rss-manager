@@ -20,7 +20,7 @@
 		$options['content_text_align'] = $_POST['rm_content_text_align'];
 		$options['custom_footer_code'] = wp_kses_stripslashes($_POST['rm_custom_footer_code']);
 		$options['custom_header_code'] = wp_kses_stripslashes($_POST['rm_custom_header_code']);
-		
+		update_option('rss_manager', $options);
 		?>
 		<div class="updated"><p><strong><?php _e('Plugin settings were successfully updated!', 'rss-manager'); ?></strong></p></div>
     <?php
