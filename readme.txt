@@ -2,7 +2,7 @@
 Contributors: ajayver, sputnik1818
 Tags: rss, custom fields, images, manager, read more
 Requires at least: 2.8
-Tested up to: 3.0.5
+Tested up to: 3.1.1
 Stable tag: 0.02
 
 This plugin gives you the ability to change the look of your RSS feed. You can easily add images from custom fields, read more link, category list, tag list and any custom code before or after the feed post.
