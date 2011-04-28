@@ -43,7 +43,7 @@
 <?php _e( 'Hint: If you don\'t like how WordPress truncates your posts, put your manualy truncated post version in the \'Excerpt\' field in your post editor. ', 'rss-manager' ); ?></p></div> 
   <tr valign="top">
   
-  <th scope="row"><?php _e( 'Select the Pause time for Feeds', 'rss-manager' ); ?> </th>
+  <th scope="row"><?php _e( 'Select the delay time for Feeds', 'rss-manager' ); ?> </th>
   <td>
   <input name="rm_pause_time" type="text" id="rm_pause_time" value="<?php echo $options['rss_pause_time']; ?>" class="small-text" />
   <select name="rm_unit_of_time">

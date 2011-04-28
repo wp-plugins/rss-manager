@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RSS Templates\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-02-26 07:16+0700\n"
-"PO-Revision-Date: 2011-02-26 07:16+0700\n"
-"Last-Translator: Dmitry <sputnik1818@gmail.com>\n"
+"POT-Creation-Date: 2011-04-28 20:29+0800\n"
+"PO-Revision-Date: 2011-04-28 20:29+0800\n"
+"Last-Translator: Ajay Verma <ajayverma1986@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../rss_manager.php:26
-#: ../rss_manager_admin.php:59
+#: ../rss_manager_admin.php:50
 msgid "Minute(s)"
 msgstr ""
 
@@ -31,11 +31,11 @@ msgstr ""
 msgid "Tags:"
 msgstr ""
 
-#: ../rss_manager.php:188
+#: ../rss_manager.php:189
 msgid "RSS Manager options"
 msgstr ""
 
-#: ../rss_manager.php:188
+#: ../rss_manager.php:189
 #: ../rss_manager_admin.php:2
 msgid "RSS Manager"
 msgstr ""
@@ -44,173 +44,156 @@ msgstr ""
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: ../rss_manager_admin.php:27
+#: ../rss_manager_admin.php:25
 msgid "Plugin settings were successfully updated!"
 msgstr ""
 
-#: ../rss_manager_admin.php:39
+#: ../rss_manager_admin.php:37
 msgid "General settings"
 msgstr ""
 
-#: ../rss_manager_admin.php:44
-msgid "Syndication feeds show the most recent"
+#: ../rss_manager_admin.php:41
+msgid "It is better to set \"For each article in a feed, show -> Summary\" in reading options before using this plugin."
 msgstr ""
 
-#: ../rss_manager_admin.php:45
-msgid "posts"
+#: ../rss_manager_admin.php:43
+msgid "Hint: If you don't like how WordPress truncates your posts, put your manualy truncated post version in the 'Excerpt' field in your post editor. "
 msgstr ""
 
-#: ../rss_manager_admin.php:48
-#: ../rss_manager_admin.php:49
-msgid "For each article in a feed, show"
-msgstr ""
-
-#: ../rss_manager_admin.php:50
-msgid "Full text"
+#: ../rss_manager_admin.php:46
+msgid "Select the delay time for Feeds"
 msgstr ""
 
 #: ../rss_manager_admin.php:51
-msgid "Summary"
-msgstr ""
-
-#: ../rss_manager_admin.php:52
-msgid "Hint: If you don't like how WordPress truncates your posts, put your manualy truncated post version in the 'Excerpt' field in your post editor."
-msgstr ""
-
-#: ../rss_manager_admin.php:55
-msgid "Select the Pause time for Feeds"
-msgstr ""
-
-#: ../rss_manager_admin.php:60
 msgid "Hour(s)"
 msgstr ""
 
-#: ../rss_manager_admin.php:61
+#: ../rss_manager_admin.php:52
 msgid "Day(s)"
 msgstr ""
 
-#: ../rss_manager_admin.php:62
+#: ../rss_manager_admin.php:53
 msgid "Week(s)"
 msgstr ""
 
-#: ../rss_manager_admin.php:63
+#: ../rss_manager_admin.php:54
 msgid "Month(s)"
 msgstr ""
 
-#: ../rss_manager_admin.php:64
+#: ../rss_manager_admin.php:55
 msgid "Year(s)"
 msgstr ""
 
-#: ../rss_manager_admin.php:68
+#: ../rss_manager_admin.php:59
 msgid "Read more link text"
 msgstr ""
 
-#: ../rss_manager_admin.php:70
+#: ../rss_manager_admin.php:61
 msgid "Link alignment:"
 msgstr ""
 
-#: ../rss_manager_admin.php:72
-#: ../rss_manager_admin.php:98
+#: ../rss_manager_admin.php:63
+#: ../rss_manager_admin.php:89
 msgid "Left"
 msgstr ""
 
-#: ../rss_manager_admin.php:73
-#: ../rss_manager_admin.php:99
+#: ../rss_manager_admin.php:64
+#: ../rss_manager_admin.php:90
 msgid "Right"
 msgstr ""
 
-#: ../rss_manager_admin.php:74
-#: ../rss_manager_admin.php:100
+#: ../rss_manager_admin.php:65
+#: ../rss_manager_admin.php:91
 msgid "Center"
 msgstr ""
 
-#: ../rss_manager_admin.php:79
+#: ../rss_manager_admin.php:70
 msgid "Category list title"
 msgstr ""
 
-#: ../rss_manager_admin.php:81
+#: ../rss_manager_admin.php:72
 msgid "Hint: To hide read more link, categories list or tags - leave the corresponding input field blank."
 msgstr ""
 
-#: ../rss_manager_admin.php:84
+#: ../rss_manager_admin.php:75
 msgid "Tag list title"
 msgstr ""
 
-#: ../rss_manager_admin.php:88
+#: ../rss_manager_admin.php:79
 msgid "Where to show tags and categories?"
 msgstr ""
 
-#: ../rss_manager_admin.php:90
+#: ../rss_manager_admin.php:81
 msgid "Before text"
 msgstr ""
 
-#: ../rss_manager_admin.php:91
+#: ../rss_manager_admin.php:82
 msgid "After text"
 msgstr ""
 
-#: ../rss_manager_admin.php:92
+#: ../rss_manager_admin.php:83
 msgid "Right after the title"
 msgstr ""
 
-#: ../rss_manager_admin.php:93
+#: ../rss_manager_admin.php:84
 msgid "In the bottom"
 msgstr ""
 
-#: ../rss_manager_admin.php:97
+#: ../rss_manager_admin.php:88
 msgid "Post text alignment"
 msgstr ""
 
-#: ../rss_manager_admin.php:103
-#: ../rss_manager_admin.php:157
-#: ../rss_manager_admin.php:177
+#: ../rss_manager_admin.php:94
+#: ../rss_manager_admin.php:148
+#: ../rss_manager_admin.php:168
 msgid "Update settings"
 msgstr ""
 
-#: ../rss_manager_admin.php:110
+#: ../rss_manager_admin.php:101
 msgid "Post's thumbnail settings"
 msgstr ""
 
-#: ../rss_manager_admin.php:112
+#: ../rss_manager_admin.php:103
 msgid "If you are using custom fields to assign images to each post, you can show these images in your RSS feed. You can assign custom fields in the post editor."
 msgstr ""
 
-#: ../rss_manager_admin.php:116
+#: ../rss_manager_admin.php:107
 msgid "Post's thumbnail custom field name"
 msgstr ""
 
-#: ../rss_manager_admin.php:120
+#: ../rss_manager_admin.php:111
 msgid "Limit thumbnail width"
 msgstr ""
 
-#: ../rss_manager_admin.php:122
+#: ../rss_manager_admin.php:113
 msgid "Hint: To prevent images proportions change, better limit only width, or only height - not both in the same time."
 msgstr ""
 
-#: ../rss_manager_admin.php:125
+#: ../rss_manager_admin.php:116
 msgid "Limit thumbnail height"
 msgstr ""
 
-#: ../rss_manager_admin.php:132
+#: ../rss_manager_admin.php:123
 msgid "Thumbnail position"
 msgstr ""
 
-#: ../rss_manager_admin.php:134
+#: ../rss_manager_admin.php:125
 msgid "Choose the position:"
 msgstr ""
 
-#: ../rss_manager_admin.php:163
+#: ../rss_manager_admin.php:154
 msgid "Insert custom code before and after items"
 msgstr ""
 
-#: ../rss_manager_admin.php:165
+#: ../rss_manager_admin.php:156
 msgid "Be very careful with the following options, they can crash the output of your feed."
 msgstr ""
 
-#: ../rss_manager_admin.php:169
+#: ../rss_manager_admin.php:160
 msgid "Add custom code before each item"
 msgstr ""
 
-#: ../rss_manager_admin.php:173
+#: ../rss_manager_admin.php:164
 msgid "Add custom code after each item"
 msgstr ""
 
