@@ -5,7 +5,7 @@ Requires at least: 2.8
 Tested up to: 3.1.1
 Stable tag: 0.02
 
-This plugin gives you the ability to change the look of your RSS feed. You can easily add images from custom fields, read more link, category list, tag list and any custom code before or after the feed items.
+This plugin gives you the ability to change the appearance of your RSS feed. You can easily add images from custom fields, read more link, category list, tag list and any custom code before or after the feed items.
 
 
 == Description ==
