@@ -1,6 +1,6 @@
 ﻿=== Plugin Name ===
 Contributors: ajayver, sputnik1818
-Tags: rss, custom fields, images, manager, read more
+Tags: rss, custom fields, images, manager, read more, feed
 Requires at least: 2.8
 Tested up to: 3.1.1
 Stable tag: 0.02
