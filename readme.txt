@@ -3,7 +3,7 @@ Contributors: ajayver, sputnik1818
 Tags: rss, custom fields, images, manager, read more, feed
 Requires at least: 2.8
 Tested up to: 3.1.1
-Stable tag: 0.02
+Stable tag: 0.03
 
 This plugin gives you the ability to change the appearance of your RSS feed.
 
@@ -34,6 +34,9 @@ If it didn't work, try this:
 None.
 
 == Changelog ==
+
+= 0.03 =
+* Fixed bug with unsaving options.
 
 = 0.02 =
 * Plugins first svn publication
