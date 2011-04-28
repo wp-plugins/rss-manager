@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RSS Templates\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-28 00:13+0800\n"
-"PO-Revision-Date: 2011-04-28 00:15+0800\n"
+"POT-Creation-Date: 2011-04-28 20:30+0800\n"
+"PO-Revision-Date: 2011-04-28 20:30+0800\n"
 "Last-Translator: Ajay Verma <ajayverma1986@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,8 @@ msgid "Hint: If you don't like how WordPress truncates your posts, put your manu
 msgstr "Подсказка: Если вас не устраивает то, как WordPress сокращает ваши записи, вы можете вставлять сокращенную версию поста вручную в поле 'Цитата' в редакторе записей."
 
 #: ../rss_manager_admin.php:46
-msgid "Select the Pause time for Feeds"
+#, fuzzy
+msgid "Select the delay time for Feeds"
 msgstr "Задержка публикации RSS"
 
 #: ../rss_manager_admin.php:51
