@@ -1,9 +1,9 @@
-﻿=== Plugin Name === 
+﻿=== Plugin Name ===
 Contributors: ajayver, sputnik1818, Cristiano Leoni
 Tags: rss, custom fields, images, manager, read more, feed
 Requires at least: 2.8
 Tested up to: 3.3.1
-Stable tag: 0.04
+Stable tag: 0.05
 
 This plugin gives you the ability to change the appearance of your RSS feed.
 
@@ -35,7 +35,7 @@ None.
 
 == Changelog ==
 
-= 0.04 =
+= 0.05 =
 * Added WordPress built-in thumbnails support
 
 = 0.03 =
