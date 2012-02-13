@@ -1,4 +1,4 @@
-﻿=== Plugin Name ===
+﻿=== Plugin Name === 
 Contributors: ajayver, sputnik1818, Cristiano Leoni
 Tags: rss, custom fields, images, manager, read more, feed
 Requires at least: 2.8
