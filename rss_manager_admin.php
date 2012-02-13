@@ -38,7 +38,17 @@
   <div class="inside">
   <table class="form-table">
   <tbody>
-<div style="padding:10px; font-size:1.2em;"><p><?php _e( 'It is better to set "For each article in a feed, show -> Summary" in reading options before using this plugin.', 'rss-manager' ); ?></p>
+  
+<div style="padding:10px; font-size:1.2em;">
+<p><?php _e( 'Please donate if you like this plugin!', 'rss-manager' ); ?></p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<p><?php _e( 'It is better to set "For each article in a feed, show -> Summary" in reading options before using this plugin.', 'rss-manager' ); ?></p>
 <p>
 <?php _e( 'Hint: If you don\'t like how WordPress truncates your posts, put your manualy truncated post version in the \'Excerpt\' field in your post editor. ', 'rss-manager' ); ?></p></div> 
   <tr valign="top">
@@ -54,6 +64,7 @@
   <option value="MONTH" <?php if ($options['rss_unit_of_time'] == "MONTH") echo "selected"; ?> ><?php _e('Month(s)', 'rss-manager'); ?></option>
   <option value="YEAR" <?php if ($options['rss_unit_of_time'] == "YEAR") echo "selected"; ?> ><?php _e('Year(s)', 'rss-manager'); ?></option>
   </select></td>
+  
   </tr>
   <tr valign="top">
   <th scope="row"><label for="rm_readmore_text"><?php _e('Read more link text', 'rss-manager'); ?></label></th>
@@ -100,7 +111,10 @@
   <div class="postbox opened">
   <h3><?php _e("Post's thumbnail settings", 'rss-manager'); ?></h3>
   <div class="inside">
+  <p><?php _e("If you have WordPress version 2.9 or higher, you can use built-in thumbnails support - RSS Manager will fetch them automatically.", 'rss-manager'); ?></p>
+  
   <p><?php _e("If you are using custom fields to assign images to each post, you can show these images in your RSS feed. You can assign custom fields in the post editor.", 'rss-manager'); ?></p>
+  
   <table class="form-table">
   <tbody>
   <tr valign="top">

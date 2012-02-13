@@ -58,8 +58,17 @@ function rss_manager_filter($content) {      // Функция перехват�
 		$post_title = $wp_query->post->post_title; //Название поста
 		
 		$post_url = get_permalink($post_id);    //Ссылку на пост
-		$post_thumbnail = get_post_meta($post_id, $options['custom_field_name'], true); //Берем ссылку на картинку из произвольного поля с названием thumbnail
 		
+		/* Added by Cristiano Leoni 2012-02-12 */		
+		if ( function_exists('has_post_thumbnail') && has_post_thumbnail($post_id) ) {
+			$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post_id), full );
+			if ($thumbnail[0]) $post_thumbnail=$thumbnail[0];
+		}
+		/* End Added */
+		
+		if ( get_post_meta($post_id, $options['custom_field_name'], true) ) $post_thumbnail = get_post_meta($post_id, $options['custom_field_name'], true); //Берем ссылку на картинку из произвольного поля с названием thumbnail
+		
+			
     
     if($post_thumbnail != '') {   //Если адрес картинки найден
 		    if ($options['thumbnail_height'] > 0) { $width_height .= "height='" . $options['thumbnail_height'] . "px' "; } // если надо ресайзить по длине
