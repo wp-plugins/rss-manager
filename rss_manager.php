@@ -5,7 +5,7 @@ Plugin URI:
 Description: This plugin gives you the ability to change the look of your RSS feed. You can easily add images from custom fields, read more link, category list, tag list and any custom code before or after the feed post.
 Author: ajayver, sputnik1818
 Author URI: http://travelbloggers.ru/
-Version: 0.03
+Version: 0.04
 */ 
 /*  Copyright 2011  Ajay Verma, Dmitry Vojtekhovich  (email : ajayverma1986@gmail.com)
     This program is free software; you can redistribute it and/or modify
