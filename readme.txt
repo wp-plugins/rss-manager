@@ -1,5 +1,6 @@
 ﻿=== Plugin Name ===
 Contributors: ajayver, sputnik1818, Cristiano Leoni
+Donate link: http://goo.gl/20bN7
 Tags: rss, custom fields, images, manager, read more, feed
 Requires at least: 2.8
 Tested up to: 3.3.1
