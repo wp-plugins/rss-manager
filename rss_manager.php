@@ -5,7 +5,7 @@ Plugin URI:
 Description: This plugin gives you the ability to change the look of your RSS feed. You can easily add images from custom fields, read more link, category list, tag list and any custom code before or after the feed post.
 Author: ajayver, sputnik1818
 Author URI: http://travelbloggers.ru/
-Version: 0.05
+Version: 0.06
 */ 
 /*  Copyright 2011  Ajay Verma, Dmitry Vojtekhovich  (email : ajayverma1986@gmail.com)
     This program is free software; you can redistribute it and/or modify
@@ -180,6 +180,7 @@ function rss_manager_filter($content) {      // Функция перехват�
 
 function publish_later_on_feed($where) {  
 	global $wpdb;  
+	$options = rss_manager_options();
 	if ( is_feed() && $options['rss_pause_time']>0 && $options['rss_unit_of_time']!='') {  
 		$now = gmdate('Y-m-d H:i:s');   
 		$rss_pause_time = $options['rss_pause_time'];
@@ -202,7 +203,7 @@ include('rss_manager_admin.php');
 }
 if (function_exists('load_plugin_textdomain'))
 	{
-		load_plugin_textdomain('rss-manager', '/' .PLUGINDIR. '/' .dirname(plugin_basename(__FILE__)) . '/languages/' );
+		load_plugin_textdomain( 'rss-manager', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
 	
 add_filter('posts_where', 'publish_later_on_feed'); //Делаем задержку времени публикация поста в ленте...

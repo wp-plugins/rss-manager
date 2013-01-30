@@ -4,7 +4,7 @@
   if (!current_user_can('manage_options'))  {
 		wp_die( __('You do not have sufficient permissions to access this page.') );
 	}
-	if ($_POST['rm_submit']=="1") //если вызвали метод Post
+	if (!empty($_POST['rm_submit'])) //если вызвали метод Post
 	{     
 		$options['custom_field_name'] = $_POST['rm_custom_field_name'];		
 		$options['readmore_text'] = $_POST['rm_readmore_text'];		
